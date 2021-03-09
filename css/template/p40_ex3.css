@@ -1,0 +1,247 @@
+
+
+.template2_v1 .showAnswerTickMark,
+.template2_v1 .showAnswerCrossMark {
+  position: absolute;
+  top: -10px;
+  left: 90px;
+  text-align: center;
+}
+
+label {
+  font-size: 30px;
+  font-weight: 300;
+  width: 100%;
+  line-height: 2.8;
+}
+
+.all {
+  font-size: 35px;
+}
+
+.space {
+  margin-right: 264px;
+}
+.space2 {
+  margin-right: 168px;
+}
+
+.inphint {
+  color: #13a0c5;
+  width: 347px;
+  height: 55px;
+  display: inline-block;
+  font-size: 30px;
+  padding: 11px 16px;
+  position: relative;
+  top: 17px;
+  left: 0px;
+  border: 1.3px solid #888;
+  background: #e2e3e2;
+}
+
+.input {
+  width: 347px;
+  height: 55px;
+  font-size: 30px;
+  padding: 8px;
+  resize: none;
+  position: absolute;
+  top: 80px;
+  left: 78px;
+}
+
+#myInput_0 {
+  left: 96px;
+  top: 102px;
+  text-align: center;
+}
+
+#myInput_1 {
+  left: 111px;
+  top: 185px;
+  text-align: center;
+}
+
+#myInput_2 {
+  left: 35px;
+  top: 269px;
+  text-align: center;
+}
+
+#myInput_3 {
+  left: 100px;
+  top: 353px;
+  text-align: center;
+}
+
+#myInput_4 {
+  left: 111px;
+  top: 437px;
+  text-align: center;
+}
+
+#myInput_5 {
+  left: 96px;
+  top: 522px;
+  text-align: center;
+}
+
+#myInput_6 {
+  left: 35px;
+  top: 604px;
+  text-align: center;
+}
+
+.question1 {
+  position: absolute;
+  top: 14px;
+  left: 25px;
+}
+.question2 {
+  position: absolute;
+  top: 55px;
+  left: 50px;
+}
+.question2 #myInput_2 {
+  left: 729px;
+}
+.question2 #myInput_3 {
+  left: 900px;
+}
+.question2 #myInput_4 {
+  left: 606px;
+}
+.pagePopup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(251, 229, 199, 0.8);
+  top: 0;
+  left: 0;
+  display: none;
+  z-index: 2;
+}
+.pagePopupContainer {
+  position: relative;
+  width: 1230px;
+  height: 730px;
+  background-color: rgb(251, 229, 199);
+  border: 5px solid transparent;
+  border-radius: 20px;
+  padding: 20px;
+  position: fixed;
+  top: 51%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pagePopup .col-xs-12 {
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+}
+.pagePopup .popup-content {
+  width: 100%;
+  height: 100%;
+}
+.pagePopup .popupTextBox {
+  font-size: 140px;
+  margin-right: 100px;
+  line-height: 1;
+}
+
+.pagePopup .popup-content .content {
+  margin-top: 70px;
+}
+.pagePopup .textBox {
+  font-size: 70px;
+  text-align: center;
+  border: 2px solid #7d51a1;
+  border-radius: 20px;
+  padding: 10px 25px 10px;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 1;
+  margin-left: 15px;
+}
+
+.pagePopup .audio_Icon {
+  cursor: pointer;
+}
+.pagePopup .popupBottomContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.pagePopup .popupBottomContent .imgContainer {
+  display: inline-block;
+}
+
+.pagePopup .carouselLeft,
+.pagePopup .carouselRight {
+  position: absolute;
+  top: 302px;
+}
+.pagePopup .carouselLeft {
+  left: 5px;
+}
+.pagePopup .carouselRight {
+  right: 5px;
+}
+
+.opacity {
+  opacity: 0.6;
+}
+
+.checkAnsBtn {
+  cursor: pointer;
+}
+
+.disabled2 {
+  cursor: default !important;
+  pointer-events: none;
+}
+
+@-moz-document url-prefix() {
+  .input , .inphint {
+    border: 2px solid #888;
+  }
+
+  .input:focus {
+    border: 2px solid #000;
+  }
+}
+/* @media screen and (max-width: 768px) {
+  #myInput_2 {
+    left: 37px;
+}
+  #myInput_3 {
+      left: 133px;
+  }
+}
+@media screen and (max-width: 375px) {
+  #myInput_1 {
+      left: 114px;
+  }
+  .all1 {
+      position: relative;
+      left: 10px;
+  }
+  #myInput_2 {
+      left: 34px;
+  }
+  #myInput_3 {
+      left: 100px;
+  }
+  #myInput_4 {
+      left: 110px;
+  }
+  #myInput_5 {
+      left: 100px;
+  }
+  #myInput_6 {
+      left: 44px;
+  }
+} */

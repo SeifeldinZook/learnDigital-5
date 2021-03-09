@@ -1,0 +1,369 @@
+<!doctype html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Learn Digital</title>
+
+    <!-- global CSS Starts -->
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/main.css" type="text/css" />
+    <link rel="stylesheet" href="css/template/p40_ex3.css" type="text/css" />
+
+    <!-- global CSS End -->
+
+    <!-- global JS Starts -->
+    <script src="js/lib/jquery_v3.3.1.js"></script>
+    <script src="js/lib/bootstrap.min.js"></script>
+    <script src="js/lib/underscore-min.js"></script>
+    <!-- global JS End -->
+
+
+  </head>
+
+  <body>
+    <div id="container">
+      <div class="page_content">
+
+        <div class="container-fluid noPadding">
+          <!-- header start -->
+          <div class="col-xs-12 noPadding header">
+            <!--<div class="box1 title" data-audioSrc="assets/audio/p40ex3.mp3" onClick="fnTitleAudioClick(this)">
+          <img src="assets/images/audio_icon.png" class="img-responsive" /></div>-->
+            <div class="boxhead5 headingTitle">
+              <h1>Complete the questions with the verbs in brackets. Use Past Continuous.</h1>
+            </div>
+
+            <div class="box1">
+              <div class="resourseBtn queBox queBox_1" id="imgBox_1">
+                <div class="clickableBox">
+                  <img src="assets/images/resourse_icon.png" class="img-responsive" class="btn btn-secondary"
+                    data-toggle="tooltip" data-placement="top" title="Resource" />
+                </div>
+              </div>
+            </div>
+
+            <div class="box1 pull-right helpBtn hide">
+              <img src="assets/images/help_icon.png" class="img-responsive" />
+            </div>
+          </div>
+          <audio id="audioPlayer1" preload="auto" src=""></audio>
+          <audio id="audioPlayer2" preload="auto" src=""></audio>
+          <!-- header end -->
+
+          <!-- page start -->
+          <section class="col-xs-12 pageContainer">
+            <div class="pageBg col-xs-12"></div>
+            <div class="pageContent col-xs-12 noPadding">
+              <div id="myCarousel" class="carousel slide col-xs-12 template2_v1" data-ride="carousel" data-interval="0"
+                data-wrap="false" data-id="template2_v1">
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active" data-audioSrc="" style="height: 100%;">
+                    <div class="question question_1">
+
+
+                      <form id="form" autocomplete="off" style="height: 650px;">
+                        <div class="question1">
+                          <label id="eq"><b>1.</b> Where
+                            <div class="inphint "><span style="    position: absolute;
+                            top: -15px;
+                            left: 79px;">was he going</span></div> (he / go) at ten in the morning?<br>
+                            <b>2.</b> Why &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(Daren
+                            / run) yesterday morning?<br>
+                            <b>3.</b> What &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(you
+                            / do) when I called you?<br>
+                            <b>4.</b> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(the girls
+                            / chat) online last night at half past ten?<br>
+                            <b>5.</b> Who &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(Alice
+                            / call) on the phone yesterday at six?<br>
+                            <b>6.</b> What &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(you
+                            / cook) when I came over to your house?<br>
+                            <b>7.</b> Why &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(your
+                            mum / wear) a long dress yesterday?<br>
+                            <b>8.</b> &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;(you and
+                            Ben / ride) your bikes last Sunday morning?
+                          </label>
+
+
+                          <input id="myInput_0" maxlength="30" class="input" onfocus="onFoucsFunction(this)"
+                            onclick="onFoucsFunction(this)" spellcheck="false"></input>
+                          <input id="myInput_1" maxlength="30" class="input" onfocus="onFoucsFunction(this)"
+                            onclick="onFoucsFunction(this)" spellcheck="false"></input>
+                          <input id="myInput_2" maxlength="30" class="input" onfocus="onFoucsFunction(this)"
+                            onclick="onFoucsFunction(this)" spellcheck="false"></input>
+                          <input id="myInput_3" maxlength="30" class="input" onfocus="onFoucsFunction(this)"
+                            onclick="onFoucsFunction(this)" spellcheck="false"></input>
+                          <input id="myInput_4" maxlength="30" class="input" onfocus="onFoucsFunction(this)"
+                            onclick="onFoucsFunction(this)" spellcheck="false"></input>
+                          <input id="myInput_5" maxlength="30" class="input" onfocus="onFoucsFunction(this)"
+                            onclick="onFoucsFunction(this)" spellcheck="false"></input>
+                          <input id="myInput_6" maxlength="30" class="input" onfocus="onFoucsFunction(this)"
+                            onclick="onFoucsFunction(this)" spellcheck="false"></input>
+
+                        </div>
+
+
+
+                      </form>
+                    </div>
+                  </div>
+
+                </div> <!-- carousel-inner -->
+              </div> <!-- myCarousel -->
+            </div>
+          </section>
+          <!-- page end -->
+
+          <!-- footer start -->
+          <div class="row">
+            <div class="col-xs-12 footer">
+
+              <div class="box1">
+
+                <div class="reloadBtnAll" class="btn btn-secondary" data-toggle="tooltip" data-placement="top"
+                  title="Restart">
+                  <img src="assets/images/replay_icon.png" class="img-responsive" />
+                </div>
+              </div>
+
+              <div class="box3" style="position: relative;top: -8px;">
+                <div class="audioPlayerContainer" id="audioDragContainer">
+                  <div class="col-xs-12 controlsDiv">
+                    <div class="controlsinline">
+                      <div id="pButton" class="col-xs-1 noPadding">
+                        <img src="assets/images/play.png" class="img-responsive playImg"
+                          onClick="fnStartAudio('play');" />
+                        <img src="assets/images/pause.png" class="img-responsive pauseImg"
+                          onClick="fnStartAudio('pause');" />
+                      </div>
+                      <div class="col-xs-11" id="audioDrag">
+                        <div class="slidecontainer">
+                          <input type="range" min="0" max="100" value="0" class="slider" id="myRange" step="0.1">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="box2" class="btn btn-secondary" data-toggle="tooltip" data-placement="top"
+                title="Check answers" style="margin-right: 0px;">
+                <div class="checkAnsBtn disabled" onclick="check()">
+                  <img src="assets/images/check_icon.png" class="img-responsive" style="position: relative;
+                left: 20px;" />
+                </div>
+              </div>
+              <div class="box1" class="btn btn-secondary" data-toggle="tooltip" data-placement="top"
+                title="Show selected">
+                <div class="disabled" id="showOne" onclick="showVal()">
+                  <img src="assets/images/show.png" class="img-responsive" />
+                </div>
+              </div>
+
+              <div class="box2">
+                <div class="showAnsBtn" onclick="showans()" class="btn btn-secondary" data-toggle="tooltip"
+                  data-placement="top" title="Show all answers">
+                  <img src="assets/images/showAns_icon.png" class="img-responsive" />
+                </div>
+              </div>
+
+
+
+              <div class="box1">
+                <div class="backBtn hide">
+                  <img src="assets/images/back_icon.png" class="img-responsive" />
+                </div>
+              </div>
+
+              <div class="box4">
+                <div class="pageNumber hide">1 of 4</div>
+              </div>
+
+              <div class="box1">
+                <div class="nextBtn hide">
+                  <img src="assets/images/next_icon.png" class="img-responsive inlineblock" />
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+          <!-- footer end -->
+          <div class="resoursePopup pagePopup popup_1" style="display: none;">
+            <div class="resourseContainer">
+
+              <div class="pagePopupContainer">
+                <img class="closeBtn" src="assets/images/close_icon.png" class="btn btn-secondary" data-toggle="tooltip"
+                  data-placement="top" title="Close">
+                <div class="col-xs-12 noPadding">
+                  <div class="popup-content">
+                    <div id="popupSlider_1" class="carousel slide popupSlider" data-ride="carousel"
+                      data-interval="false">
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner">
+                        <div class="item item_1">
+                          <div class="content">
+
+                            <div class="clickableBox">
+                              <img class="center-block" style="    width: 1180px;
+                            position: relative;
+                            top: 96px;" src="assets/images/table4.jpg" />
+                            </div>
+                            <div class="popupBottomContent">
+                              <div class="imgContainer"><img class="audio_Icon" onClick="fnTitleAudioClick(this)"
+                                  data-audioSrc="assets/audio/p96e14q1_1.mp3" /></div>
+
+                            </div>
+
+                          </div>
+
+                        </div>
+
+                        <!-- <div class="item item_2">
+                        <div class="content">
+                          <div class="clickableBox">
+                            <img class="center-block" src="assets/images/table2.jpg" />
+                          </div>
+
+                          <div class="popupBottomContent">
+                            <div class="imgContainer"><img class="audio_Icon" onClick="fnTitleAudioClick(this)"
+                                data-audioSrc="assets/audio/p96e14q1_2.mp3" /></div>
+                        
+                          </div>
+                        </div>
+
+                      </div> -->
+
+                        <!-- <div class="item item_3">
+
+                        <div class="content">
+                          <div class="clickableBox">
+                            <img class="center-block" src="assets/images/p96e14/p96ex14q1_3_1.png" />
+                          </div>
+
+                          <div class="popupBottomContent">
+                            <div class="imgContainer"><img class="audio_Icon" onClick="fnTitleAudioClick(this)"
+                                data-audioSrc="assets/audio/p96e14q1_3.mp3" /></div>
+                            <div class="textBox">3 biscuits</div>
+                          </div>
+                        </div>
+
+                      </div> -->
+
+                        <!-- <div class="item item_4">
+                        <div class="content">
+                          <div class="clickableBox">
+                            <img class="center-block" src="assets/images/p96e14/p96ex14q1_4_1.png" />
+                          </div>
+
+                          <div class="popupBottomContent">
+                            <div class="imgContainer"><img class="audio_Icon" onClick="fnTitleAudioClick(this)"
+                                data-audioSrc="assets/audio/p96e14q1_4.mp3"></div>
+                            <div class="textBox">4 salt</div>
+                          </div>
+                        </div>
+
+                      </div> -->
+                      </div>
+                      <!-- Left and right controls -->
+                      <!-- <a class="carouselLeft" href="#popupSlider_1" data-slide="prev" class="btn btn-secondary"
+                      data-toggle="tooltip" data-placement="top" title="Previous"><img class=""
+                        src="assets/images/popupBack.png" /></a>
+                    <a class="carouselRight" href="#popupSlider_1" data-slide="next" class="btn btn-secondary"
+                      data-toggle="tooltip" data-placement="top" title="Next"><img class=""
+                        src="assets/images/popupNext.png" /></a> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+
+            <div class="helpPopup" style="display: none;">
+              <div class="helpContainer">
+                <img class="closeBtn" src="assets/images/close_icon.png">
+                <div class="col-xs-12" style="overflow: auto;width:100%;height:100%;font-size:30px;">
+                  <p>Help content goes here.</p>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="resoursePopup" style="display: none;">
+            <div class="resourseContainer">
+              <img class="closeBtn" src="assets/images/close_icon.png">
+              <div class="col-xs-12 noPadding" style="overflow: auto;width:100%;height:100%;padding:0;">
+                <img src="assets/images/dummy.jpg" />
+              </div>
+            </div>
+          </div>
+
+          <div class="helpPopup" style="display: none;">
+            <div class="helpContainer">
+              <img class="closeBtn" src="assets/images/close_icon.png">
+              <div class="col-xs-12" style="overflow: auto;width:100%;height:100%;font-size:30px;">
+                <p>Help content goes here.</p>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      $(function () {
+        fnSetPlayer();
+        fnTemplate2_v1($('div.active'));
+      });
+
+
+      function showVal() {
+        console.log("showVal");
+        // console.log(foucsedElement);
+      }
+
+    </script>
+    <script type="text/javascript" src="js/template/p40_ex3.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script>
+      if (navigator.userAgent.indexOf("Chrome") != -1) {
+
+        $(".input").css("border", "1.3px solid #888");
+        $(".inphint").css("border", "1.3px solid #888");
+
+      }
+    </script>
+    <script type="text/javascript">
+      var blnMozilla = false;
+      var blnIE = false;
+
+      if (document.attachEvent) {
+        blnIE = true;
+      } else if (document.addEventListener) {
+        blnMozilla = true;
+      }
+
+      function setStyleProperty(obj, property, value) {
+        if (obj) {
+          if (obj.style.property == value) {
+            return;
+          }
+          if (blnIE) eval('obj.style.' + property + ' = "' + value + '"');
+          else obj.style.setProperty(property, value, '');
+        }
+      }
+    </script>
+  </body>
+
+</html>
