@@ -218,7 +218,7 @@ function check() {
         $("div.active").find(".input")[counter].value = correctans[counter][1];
       }
 
-      $("div.active").find(".input")[counter].style.color = "rgb(19, 160, 197)";
+      $("div.active").find(".input")[counter].style.color = "#36E084";
       ansArr3[counter] = 1;
 
       if ($("div.active").find(".input")[counter].value != " ") {
@@ -267,7 +267,7 @@ function showans() {
   $(".checkAnsBtn").addClass("disabled");
   for (var j = 0; j < correctans.length; j++) {
     $("div.active").find(".input")[j].value = " ";
-    $("div.active").find(".input")[j].style.color = "rgb(19, 160, 197)";
+    $("div.active").find(".input")[j].style.color = "#36E084";
     $("div.active").find(".input")[j].disabled = true;
     $("div.active").find(".input")[j].style.zIndex = -1;
 
@@ -529,7 +529,7 @@ function showVal() {
   id = foucsedElement.getAttribute("id").split("_")[1];
   ans = correctans[id][0];
   foucsedElement.value = ans;
-  foucsedElement.style.color = "#0FA0C5";
+  foucsedElement.style.color = "#36E084";
   foucsedElement.disabled = true;
   foucsedElement.classList.add("disabled2");
   foucsedElement.zIndex = "-1";
